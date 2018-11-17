@@ -47,15 +47,15 @@ body {
 }
 
 .northwestern-img {
-    background-image: linear-gradient(to right, rgb(228, 224, 238) , rgb(078, 042, 132));
+    background-image: linear-gradient(to right, white , rgb(078, 042, 132));
     height: 100%;
-    width: 30%;
+    width: 50%;
 }
 
 .main-nav {
     display: inline-block;
     text-align: right;
-    width: calc(100% - 500px);
+    width: calc(100% - 700px);
     vertical-align: middle;
 }
 
