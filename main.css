@@ -74,7 +74,7 @@ body {
 
 .main-header {
     width: 100%;
-    background-image: linear-gradient(to right, rgb(90, 56, 153) , rgb(078, 042, 132));
+    background-image: linear-gradient(to right, rgb(100, 65, 163) , rgb(078, 042, 132));
     position: sticky;
     top: 0;
     z-index: 99999;
