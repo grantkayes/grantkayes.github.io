@@ -49,6 +49,11 @@ body {
     justify-content: space-between;
 }
 
+.container-2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .section-title img {
     height: 40px;
     width: 40px;
@@ -67,7 +72,7 @@ body {
 
 .main-header {
     width: 100%;
-    background: rgb(078, 042, 132);
+    background-image: linear-gradient(to right, rgb(90, 56, 153) , rgb(078, 042, 132));
     position: sticky;
     top: 0;
     z-index: 99999;
@@ -85,15 +90,15 @@ body {
 }
 
 .northwestern-img {
-    background-image: linear-gradient(to right, white , rgb(078, 042, 132));
+    background: white;
     height: 100%;
-    width: 50%;
+    width: 22%;
 }
 
 .main-nav {
     display: inline-block;
     text-align: right;
-    width: calc(100% - 700px);
+    width: calc(100% - 300px);
     vertical-align: middle;
 }
 
@@ -108,12 +113,13 @@ body {
     text-decoration: none;
     font-size: 22px;
     font-weight: bold;
-    padding: 3px 0;
+    text-align: right;
 }
 
 .main-nav__item {
     display: inline-block;
     margin: 0 16px;
+    text-align: right;
 }
 
 .main-nav__item a:hover,
