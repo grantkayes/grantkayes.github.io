@@ -1,11 +1,58 @@
 body {
-  background-color: rgb(255, 231, 231)
+  background-color: rgb(255, 255, 255);
+  font-family: montserrat;
+  color: rgb(74, 74, 74);
+}
+
+a {
+  text-decoration: none;
+}
+
+li, a {
+  transition: all 0.3s ease;
+  list-style-type: none;
+}
+
+nav {
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+section > p {
+  margin-left: 14px;
 }
 
 .container {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-between;
+}
+
+.about-me {
+  font-size: 30px;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-container > li {
+  margin-right: 50px;
+}
+
+div a:hover {
+  color: rgb(255, 67, 67);
+}
+
+section a {
+  color: rgb(255, 67, 67);
+}
+
+section a:hover {
+  color: rgb(74, 74, 74);
 }
 
 .name {
@@ -21,6 +68,7 @@ body {
 }
 
 .card-one {
+  margin-left: 14px;
   background-color: rgb(255, 67, 67);
   height: 100px;
   width: 100px;
