@@ -4,6 +4,14 @@ body {
   color: rgb(74, 74, 74);
 }
 
+.mb {
+  margin-bottom: 10px;
+}
+
+.pb {
+  padding-bottom: 10px;
+}
+
 ul {
   padding-inline-start: 0;
 }
@@ -94,7 +102,8 @@ nav li {
 }
 
 div a:hover {
-  color: rgb(255, 67, 67);
+  transition: all 0.2s ease;
+  color: white;
 }
 
 .about-me a {
