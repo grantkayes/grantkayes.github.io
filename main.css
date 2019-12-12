@@ -12,6 +12,10 @@ body {
   padding-bottom: 10px;
 }
 
+.drop {
+  box-shadow: 10px 10px black;
+}
+
 ul {
   padding-inline-start: 0;
 }
