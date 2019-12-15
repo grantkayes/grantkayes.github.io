@@ -119,7 +119,7 @@ nav a:hover {
 }
 
 nav.two a:hover {
-  color: green;
+  color: #71eeb8;
 }
 
 nav.three a:hover {
@@ -136,7 +136,7 @@ nav.four a:hover {
 }
 
 .about-me.two a {
-  color: green;
+  color: #71eeb8;
 }
 
 .about-me.three a {
@@ -161,7 +161,7 @@ nav.four a:hover {
 }
 
 .experience.two li:hover {
-  background-color: green;
+  background-color: #71eeb8;
   box-shadow: 10px 10px black;
 }
 
@@ -189,7 +189,7 @@ nav.four a:hover {
 
 .card-one.two {
   margin-left: 14px;
-  background-color: green;
+  background-color: #71eeb8;
   height: 100px;
   width: 100px;
 }
@@ -215,5 +215,10 @@ nav.four a:hover {
   width: 100px;
   animation-name: example;
   animation-duration: 4s;
+}
+
+section.projects a {
+  background-color: green;
+  width: 100vw;
 }
 
