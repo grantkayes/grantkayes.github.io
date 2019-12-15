@@ -9,7 +9,7 @@ body {
 }
 
 .top {
-  width: 75%;
+  width: 85%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -99,7 +99,7 @@ nav li {
 }
 
 .about-me {
-  font-size: 30px;
+  font-size: 50px;
 }
 
 .work {
@@ -211,12 +211,10 @@ nav.four a:hover {
     margin-right: 20px;
   }
 
-  .about-me {
-    font-size: 70px;
-  }
-
   .top {
-    width: 100%;
+    width: 90%;
+    margin-bottom: 200px;
+    margin-top: 68px;
   }
 }
 
