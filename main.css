@@ -8,6 +8,12 @@ body {
   margin-bottom: 10px;
 }
 
+.top {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .pb {
   padding-bottom: 10px;
 }
@@ -186,6 +192,34 @@ nav.four a:hover {
   height: 100px;
   width: 100px;
 }
+
+@media only screen and (min-width: 600px) {
+  .card {
+    height: 300px !important;
+    width: 300px !important;
+  }
+
+  .top a {
+    font-size: 60px;
+  }
+
+  .abt {
+    display: none;
+  }
+
+  .top li {
+    margin-right: 20px;
+  }
+
+  .about-me {
+    font-size: 70px;
+  }
+
+  .top {
+    width: 100%;
+  }
+}
+
 
 .card-one.two {
   margin-left: 14px;
