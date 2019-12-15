@@ -28,10 +28,6 @@ a {
   text-decoration: none;
 }
 
-nav a:visited {
-  color: inherit;
-}
-
 .work-role-link {
   display: flex;
   flex-direction: row;
@@ -110,16 +106,73 @@ div a:hover {
   color: white;
 }
 
+nav a {
+  color: inherit;
+}
+
+nav a:visited {
+  color: inherit;
+}
+
+nav a:hover {
+  color: rgb(131, 50, 168);
+}
+
+nav.two a:hover {
+  color: green;
+}
+
+nav.three a:hover {
+  color: blue;
+}
+
+nav.four a:hover {
+  color: red;
+}
+
 .about-me a {
-  color: rgb(255, 67, 67);
+  color: rgb(131, 50, 168);
+  transition: all 1s ease;
+}
+
+.about-me.two a {
+  color: green;
+}
+
+.about-me.three a {
+  color: blue;
+}
+
+.about-me.four a {
+  color: red;
 }
 
 .about-me a:hover {
   color: rgb(74, 74, 74);
 }
 
+.experience a {
+  color: inherit;
+}
+
 .experience li:hover {
-  background-color: rgb(255, 67, 67);
+  background-color: rgb(131, 50, 168);
+  box-shadow: 10px 10px black;
+}
+
+.experience.two li:hover {
+  background-color: green;
+  box-shadow: 10px 10px black;
+}
+
+.experience.three li:hover {
+  background-color: blue;
+  box-shadow: 10px 10px black;
+}
+
+.experience.four li:hover {
+  background-color: red;
+  box-shadow: 10px 10px black;
 }
 
 .name {
@@ -127,16 +180,30 @@ div a:hover {
   vertical-align: center;
 }
 
-@keyframes example {
-  0%   {background-color: red;}
-  25%  {background-color: yellow;}
-  50%  {background-color: blue;}
-  100% {background-color: green;}
-}
-
 .card-one {
   margin-left: 14px;
-  background-color: rgb(255, 67, 67);
+  background-color: rgb(131, 50, 168);
+  height: 100px;
+  width: 100px;
+}
+
+.card-one.two {
+  margin-left: 14px;
+  background-color: green;
+  height: 100px;
+  width: 100px;
+}
+
+.card-one.three {
+  margin-left: 14px;
+  background-color: blue;
+  height: 100px;
+  width: 100px;
+}
+
+.card-one.four {
+  margin-left: 14px;
+  background-color: red;
   height: 100px;
   width: 100px;
 }
