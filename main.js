@@ -12,9 +12,11 @@ document.getElementById('dark-button').addEventListener('click', function (){
   if (body.classList.contains('dark')) {
     body.classList.remove('dark');
     body.classList.add('light');
+    document.querySelectorAll('button')[0].innerHTML = "Darken";
   } else { 
     body.classList.remove('light');
     body.classList.add('dark');
+    document.querySelectorAll('button')[0].innerHTML = "Lighten";    
   }
 });
 
