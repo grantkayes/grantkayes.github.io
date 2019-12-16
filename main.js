@@ -8,6 +8,16 @@ const element3 = document.getElementById('drop3');
 const body = document.body;
 const colorClasses = ['two', 'three', 'four'];
 
+document.getElementById('dark-button').addEventListener('click', function (){
+  if (body.classList.contains('dark')) {
+    body.classList.remove('dark');
+    body.classList.add('light');
+  } else { 
+    body.classList.remove('light');
+    body.classList.add('dark');
+  }
+});
+
 menu.addEventListener('click', function () {
   if ([...this.classList].includes('two')) {
     this.classList.remove('two');
