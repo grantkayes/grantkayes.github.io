@@ -9,14 +9,14 @@ const body = document.body;
 const colorClasses = ['two', 'three', 'four'];
 
 document.getElementById('dark-button').addEventListener('click', function (){
-  if (body.classList.contains('dark')) {
-    body.classList.remove('dark');
-    body.classList.add('light');
-    document.querySelectorAll('button')[0].innerHTML = "Darken";
-  } else { 
+  if (body.classList.contains('light')) {
     body.classList.remove('light');
     body.classList.add('dark');
-    document.querySelectorAll('button')[0].innerHTML = "Lighten";    
+    document.querySelectorAll('button')[0].innerHTML = "Light";
+  } else { 
+    body.classList.remove('dark');
+    body.classList.add('light');
+    document.querySelectorAll('button')[0].innerHTML = "Dark";    
   }
 });
 

@@ -131,6 +131,13 @@ nav li {
   font-size: 35px;
 }
 
+.interests {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 35px;
+}
+
 .work {
   padding-top: 20px;
   font-size: 35px;
@@ -167,7 +174,7 @@ nav.four a:hover {
 
 .about-me a {
   color: rgb(131, 50, 168);
-  transition: all 0.2s ease;
+  transition: all 0.5s ease;
 }
 
 .about-me.two a {
