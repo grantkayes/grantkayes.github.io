@@ -7,6 +7,7 @@ const element2 = document.getElementById('drop2');
 const element3 = document.getElementById('drop3');
 const body = document.body;
 const colorClasses = ['two', 'three', 'four'];
+let squareCounter = 0;
 
 document.getElementById('dark-button').addEventListener('click', function (){
   if (body.classList.contains('light')) {
@@ -30,6 +31,7 @@ menu.addEventListener('click', function () {
     aboutMe.classList.add('three');
     nav.classList.add('three');
     experience.classList.add('three');
+    squareCounter = squareCounter + 1;
   } else if ([...this.classList].includes('three')) {
     this.classList.remove('three');
     aboutMe.classList.remove('three');
@@ -39,16 +41,29 @@ menu.addEventListener('click', function () {
     aboutMe.classList.add('four');
     nav.classList.add('four');
     experience.classList.add('four');
+    squareCounter = squareCounter + 1;
   } else if ([...this.classList].includes('four')) {
     this.classList.remove('four');
     aboutMe.classList.remove('four');
     nav.classList.remove('four');
     experience.classList.remove('four');
+    squareCounter = squareCounter + 1;
   } else {
     this.classList.add('two');
     aboutMe.classList.add('two');
     nav.classList.add('two');
     experience.classList.add('two');
+    squareCounter = squareCounter + 1;
+  }
+  if (squareCounter % 4 == 0) {
+    menu.classList.remove('one');
+    aboutMe.classList.remove('one');
+    nav.classList.remove('one');
+    experience.classList.remove('one');
+    menu.classList.add('flash');
+    aboutMe.classList.add('flash');
+    nav.classList.add('flash');
+    experience.classList.add('flash');
   }
 });
 
