@@ -3,6 +3,50 @@ body {
   color: rgb(74, 74, 74);
 }
 
+.japan {
+  animation: enoshima;
+  animation-duration: 3s;
+}
+
+.transition {
+  animation: background; 
+  animation-duration: 3s;
+}
+
+@keyframes background {
+  0% {
+    background-color: rgba(36, 35, 35, 0.3);
+  }
+  25% {
+    background-color: rgba(36, 35, 35, 0.5);
+  }
+  50% {
+    background-color: rgba(36, 35, 35, 0.7);
+  }
+  100% {
+    background-color: rgba(36, 35, 35, 1.0);
+  }
+}
+
+@keyframes enoshima {
+  0% {
+    background: url(japan.jpg);
+    opacity: 0.3;
+  }
+  25% {
+    background: url(japan.jpg);
+    opacity: 0.5;
+  }
+  50% {
+    background: url(japan.jpg);
+    opacity: 0.7;
+  }
+  100% {
+    background: url(japan.jpg);
+  }
+}
+
+
 button {
   background: none!important;
   border: none;
