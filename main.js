@@ -64,17 +64,6 @@ menu.addEventListener('click', function () {
     aboutMe.classList.add('two');
     nav.classList.add('two');
     experience.classList.add('two');
-    squareCounter = squareCounter + 1;
-  }
-  if (squareCounter % 4 == 0) {
-    menu.classList.remove('one');
-    aboutMe.classList.remove('one');
-    nav.classList.remove('one');
-    experience.classList.remove('one');
-    menu.classList.add('flash');
-    aboutMe.classList.add('flash');
-    nav.classList.add('flash');
-    experience.classList.add('flash');
   }
 });
 

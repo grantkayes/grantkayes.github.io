@@ -1,6 +1,11 @@
 body {
-  font-family: montserrat;
+  padding-right: 15%;
+  padding-left: 15%;
+  font-family: karla;
   color: rgb(74, 74, 74);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .japan {
@@ -52,7 +57,7 @@ button {
   border: none;
   padding: 0!important;
   /*optional*/
-  font-family: inherit;
+  font-family: karla;
   font-size: inherit;
   /*input has OS specific font-family*/
   color: inherit;
@@ -135,7 +140,7 @@ a {
 
 .work-title {
   font-weight: 400;
-  font-family: monstserrat;
+  font-family: karla;
   flex: 3 1 100%;
   margin-bottom: 0;
   line-height: 1.2;
@@ -367,5 +372,16 @@ section.projects a {
   width: 95%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.project {
+  height: 200px;
+  width: 100%;
+  background-color: black;
+}
+
+.hosted {
+  margin-top: 100px;
+  text-align: center;
 }
 
