@@ -5,20 +5,9 @@ const experience = document.getElementById('experience');
 const element = document.getElementById('drop');
 const element2 = document.getElementById('drop2');
 const element3 = document.getElementById('drop3');
-const japan = document.getElementById('japan');
 const body = document.body;
 const colorClasses = ['two', 'three', 'four'];
 let squareCounter = 0;
-
-japan.addEventListener('click', function (){
-  if (body.classList.contains('japan')) {
-    body.classList.remove('japan');
-    body.classList.add('transition');
-  } else {
-    body.classList.remove('transition');
-    body.classList.add('japan');
-  }
-});
 
 document.getElementById('dark-button').addEventListener('click', function (){
   if (body.classList.contains('light')) {
