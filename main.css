@@ -8,6 +8,15 @@ body {
   justify-content: center;
 }
 
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 96%;               
+  background-color: darkslategray;
+  height: 1px;
+}
+
 .japan {
   animation: enoshima;
   animation-duration: 3s;
@@ -203,6 +212,14 @@ nav li {
   margin-left: auto;
   margin-right: auto;
   font-size: 35px;
+}
+
+.interests a {
+  width: 60%;
+  float: right;
+  height: 300px;
+  display: block;
+  margin-top: 20px;
 }
 
 .work {
