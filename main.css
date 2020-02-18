@@ -8,6 +8,17 @@ body {
   justify-content: center;
 }
 
+img {
+  margin-top: 5px;
+}
+
+img:hover {
+  transitions: 0.3s;
+  box-shadow: 10px 10px black;
+  margin-top: 0px;
+}
+
+
 hr {
   border: 0;
   clear:both;
