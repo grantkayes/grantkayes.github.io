@@ -6,18 +6,27 @@ const element = document.getElementById('drop');
 const element2 = document.getElementById('drop2');
 const element3 = document.getElementById('drop3');
 const body = document.body;
+const date = new Date();
+const time = date.getHours();
+console.log(time);
 const colorClasses = ['two', 'three', 'four'];
 let squareCounter = 0;
+
+if (18 <= time || time <= 6) {
+  body.classList.add('dark');
+} else {
+  body.classList.add('light');
+}
 
 document.getElementById('dark-button').addEventListener('click', function (){
   if (body.classList.contains('light')) {
     body.classList.remove('light');
     body.classList.add('dark');
     document.querySelectorAll('button')[0].innerHTML = "Light";
-  } else { 
+  } else {
     body.classList.remove('dark');
     body.classList.add('light');
-    document.querySelectorAll('button')[0].innerHTML = "Dark";    
+    document.querySelectorAll('button')[0].innerHTML = "Dark";
   }
 });
 
