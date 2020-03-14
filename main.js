@@ -14,8 +14,10 @@ let squareCounter = 0;
 
 if (18 <= time || time <= 6) {
   body.classList.add('dark');
+  document.getElementById('dark-button').innerHTML = "Light"
 } else {
   body.classList.add('light');
+  document.getElementById('dark-button').innerHTML = "Dark"
 }
 
 document.getElementById('dark-button').addEventListener('click', function (){
