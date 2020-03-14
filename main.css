@@ -12,13 +12,6 @@ img {
   margin-top: 5px;
 }
 
-img:hover {
-  transitions: 0.3s;
-  box-shadow: 10px 10px black;
-  margin-top: 0px;
-}
-
-
 hr {
   border: 0;
   clear:both;
@@ -226,10 +219,7 @@ nav li {
 }
 
 .interests a {
-  width: 60%;
-  float: right;
-  height: 300px;
-  display: block;
+  display: flex;
   margin-top: 20px;
 }
 
@@ -391,8 +381,7 @@ section.experience {
 }
 
 section.projects a {
-  background-color: green;
-  width: 100vw;
+  text-align: center;
 }
 
 .work-container {
@@ -405,6 +394,17 @@ section.projects a {
   height: 200px;
   width: 100%;
   background-color: black;
+}
+
+.technologies {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 35px;
+}
+
+.technologies p {
+  font-size: 35px;
 }
 
 .hosted {
