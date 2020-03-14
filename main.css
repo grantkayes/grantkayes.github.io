@@ -12,6 +12,10 @@ img {
   margin-top: 5px;
 }
 
+img:hover {
+  background-color: coral;
+}
+
 hr {
   border: 0;
   clear:both;
