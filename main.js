@@ -32,7 +32,7 @@ document.getElementById('dark-button').addEventListener('click', function (){
   }
 });
 
-menu.addEventListener('click', function () {
+menu.addEventListener('mouseover', function () {
   if ([...this.classList].includes('two')) {
     this.classList.remove('two');
     aboutMe.classList.remove('two');
