@@ -417,3 +417,7 @@ section.projects a {
   text-align: center;
 }
 
+.trans {
+  transition: all 1s ease-in-out;
+}
+

@@ -10,7 +10,27 @@ const date = new Date();
 const time = date.getHours();
 const imgs = document.querySelectorAll("img");
 const colorClasses = ['two', 'three', 'four'];
+const japaneseLink = document.getElementById("nihongo");
+const text = `
+<p>
+  グラント・ケイズです。今, シカゴ市で
+  <a href="https://www.github.com/grantkayes" target="_blank">ソフトウェア開発</a>
+  をやっています。
+</p>
+<p>
+  それも、 <a href="https://www.linkedin.com/in/grant-kayes" target="_blank">履歴書コンサルタント</a> のサービスができます。
+</p>
+<p style="font-size: 18px !important;">BA Computer Science, Japanese @ Georgetown University</p>
+`
+const text2 = "暗"
 let squareCounter = 0;
+
+// japaneseLink.addEventListener('click', function() {
+//   aboutMe.classList.add("trans");
+//   aboutMe.innerHTML = text;
+//   document.getElementById('dark-button').innerHTML = text2;
+// });
+
 
 imgs.forEach(img => {
   img.addEventListener('click', function() {
@@ -35,11 +55,19 @@ imgs.forEach(img => {
 });
 
 if (18 <= time || time <= 6) {
+  if (aboutMe.classList.contains("trans")) {
+    document.getElementById('dark-button').innerHTML = "明"
+  } else {
+    document.getElementById('dark-button').innerHTML = "Light"
+  }
   body.classList.add('dark');
-  document.getElementById('dark-button').innerHTML = "Light"
 } else {
+  if (aboutMe.classList.contains("trans")) {
+    document.getElementById('dark-button').innerHTML = "暗"
+  } else {
+    document.getElementById('dark-button').innerHTML = "Dark"
+  }
   body.classList.add('light');
-  document.getElementById('dark-button').innerHTML = "Dark"
 }
 
 document.getElementById('dark-button').addEventListener('click', function (){
