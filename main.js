@@ -48,6 +48,8 @@ imgs.forEach(img => {
       window.location.href = "https://python.org/"
     } else if (img.src.includes("cplus")) {
       window.location.href = "https://isocpp.org/";
+    } else if (img.src.includes("redis")) {
+      window.location.href = "https://redis.io/"
     } else {
       window.location.href = "https://git-scm.org/";
     }
