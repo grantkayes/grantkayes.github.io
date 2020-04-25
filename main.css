@@ -421,3 +421,13 @@ section.projects a {
   transition: all 1s ease-in-out;
 }
 
+@media only screen and (max-width: 796px) {
+  body {
+    padding: 0;
+  }
+
+  .abt {
+    display: none !important;
+  }
+}
+
