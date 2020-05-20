@@ -429,5 +429,9 @@ section.projects a {
   .abt {
     display: none !important;
   }
+
+  .card-one {
+    width: 100%;
+  }
 }
 
