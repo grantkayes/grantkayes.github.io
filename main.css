@@ -159,7 +159,7 @@ a {
   font-weight: 400;
   font-family: karla;
   flex: 3 1 100%;
-  margin-bottom: 0;
+  margin-bottom: 6px;
   line-height: 1.2;
   transition: color 0.2s ease;
 }
@@ -178,7 +178,6 @@ a {
 
 .work-date {
   flex: 1 1 20%;
-  text
 }
 
 li, a {
