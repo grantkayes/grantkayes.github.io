@@ -37,31 +37,3 @@ imgs.forEach(img => {
   });
 });
 
-if (18 <= time || time <= 6) {
-  if (aboutMe.classList.contains("trans")) {
-    document.getElementById('dark-button').innerHTML = "明"
-  } else {
-    document.getElementById('dark-button').innerHTML = "Light"
-  }
-  body.classList.add('dark');
-} else {
-  if (aboutMe.classList.contains("trans")) {
-    document.getElementById('dark-button').innerHTML = "暗"
-  } else {
-    document.getElementById('dark-button').innerHTML = "Dark"
-  }
-  body.classList.add('light');
-}
-
-document.getElementById('dark-button').addEventListener('click', function (){
-  if (body.classList.contains('light')) {
-    body.classList.remove('light');
-    body.classList.add('dark');
-    document.getElementById('dark-button').innerHTML = "Light";
-  } else {
-    body.classList.remove('dark');
-    body.classList.add('light');
-    document.getElementById('dark-button').innerHTML = "Dark";
-  }
-});
-
