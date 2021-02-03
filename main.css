@@ -4,22 +4,15 @@ body {
   flex-direction: column;
   justify-content: center;
   background-color: #faf6f0;
+  color: #037d75;
+}
+
+.home {
+  font-size: 30px;
 }
 
 .mb {
   margin-bottom: 10px;
-}
-
-.light {
-  background-color: rgb(255, 255, 255);
-  color: inherit;
-  transition: all 2s ease;
-}
-
-.dark {
-  background-color: rgb(250, 250, 250);
-  color: rgb(46, 46, 46);
-  transition: all 2s ease;
 }
 
 .top {
@@ -39,6 +32,10 @@ body {
 
 ul {
   padding-inline-start: 0;
+}
+
+ul li {
+  margin-bottom: 2%;
 }
 
 a {
@@ -84,9 +81,16 @@ li, a {
 }
 
 nav {
-  font-size: 20px;
   margin-bottom: 20px;
   margin-top: 20px;
+}
+
+nav a {
+  font-size: 30px;
+}
+
+li a {
+  font-size: 20px;
 }
 
 .container {
